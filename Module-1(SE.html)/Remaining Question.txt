@@ -1,0 +1,315 @@
+QUESTION-1 :-Define the terms: Website, Webpage, Web browser, Web server, HTML, CSS?
+
+ANS:- 
+1. Website: A website is a collection of related web pages that are hosted on a web server and can be accessed through the internet by using a 
+   domain name or an IP address. Websites can contain a variety of content such as text, images, videos, and other multimedia formats.
+
+2. Webpage: A webpage is a single document that is displayed on a web browser when a user visits a website. A website can contain multiple webpages, 
+   each with its own unique URL, that are linked together to provide a navigable structure for users to browse.
+
+3. Web browser: A web browser is a software application that allows users to access and view websites on the internet. Popular web browsers include Google 
+   Chrome, Mozilla Firefox, Apple Safari, and Microsoft Edge.
+
+4. Web server: A web server is a computer system that is responsible for storing and delivering web content to users who request it through a web browser. 
+   Web servers are typically equipped with specialized software that allows them to interpret and respond to requests for web pages and other resources.
+
+5. HTML: HTML stands for Hypertext Markup Language, which is a standard markup language used to create web pages. HTML provides a set of tags and attributes 
+   that allow web developers to structure content, add links, images, and other multimedia elements to web pages.
+
+6. CSS: CSS stands for Cascading Style Sheets, which is a language used to describe the visual appearance of HTML documents. CSS allows 
+   web developers to define styles such as colors, fonts, layouts, and other visual elements that enhance the presentation of web content.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION-2 :-Create a webpage to show “This is my first HTML page”?
+
+ANS:- 
+To create a webpage to show "This is my first HTML page," follow these steps:
+
+1. Open a text editor such as Notepad or Sublime Text.
+2. Type the following HTML code:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First HTML Page</title>
+  </head>
+  <body>
+    <h1>This is my first HTML page</h1>
+  </body>
+</html>
+
+3.Save the file with a ".html" extension, such as "myfirstpage.html".
+4.Open the saved file in a web browser by double-clicking on it.
+The web page should display the text "This is my first HTML page" in a large heading.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION-3 :-Display top 10 IT companies list in html webpage?
+
+ANS:- 
+To display a list of top 10 IT companies on a webpage using HTML, follow these steps:
+
+1.Open a text editor such as Notepad or Sublime Text.
+2.Type the following HTML code:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Top 10 IT Companies</title>
+  </head>
+  <body>
+    <h1>Top 10 IT Companies</h1>
+    <ol>
+      <li>Microsoft</li>
+      <li>Apple Inc.</li>
+      <li>IBM</li>
+      <li>Amazon</li>
+      <li>Google</li>
+      <li>Oracle</li>
+      <li>SAP SE</li>
+      <li>Intel Corporation</li>
+      <li>Dell Technologies</li>
+      <li>Tata Consultancy Services (TCS)</li>
+    </ol>
+  </body>
+</html>
+
+3.Save the file with a ".html" extension, such as "top10itcompanies.html".
+4.Open the saved file in a web browser by double-clicking on it.
+The web page should display the heading "Top 10 IT Companies" and an ordered list of the top 10 IT companies in the world.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION-4 :-Create a dropdown list?
+
+ANS:- 
+To create a dropdown list in HTML, follow these steps:
+
+1.Open a text editor such as Notepad or Sublime Text.
+2.Type the following HTML code:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dropdown List Example</title>
+  </head>
+  <body>
+    <h1>Select a Color</h1>
+    <select>
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+    </select>
+  </body>
+</html>
+
+1.Save the file with a ".html" extension, such as "dropdownlist.html".
+4.Open the saved file in a web browser by double-clicking on it.
+
+The web page should display the heading "Select a Color" and a dropdown list with four color options: Red, Green, Blue, and Yellow. The user can click 
+on the dropdown list to view and select one of the available options.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q-5
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Of College Management System</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+
+<body>
+    <center>
+	<h1>College Management System</h1>
+	<table border="2" cellspacing="0" align="center">
+		<tr>
+			<td align="center" height="50"
+				width="100"><br>
+				<b>Day/Period</b></br>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>I<br>9:30-10:20</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>II<br>10:20-11:10</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>III<br>11:10-12:00</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>12:00-12:40</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>IV<br>12:40-1:30</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>V<br>1:30-2:20</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>VI<br>2:20-3:10</b>
+			</td>
+			<td align="center" height="50"
+				width="100">
+				<b>VII<br>3:10-4:00</b>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Monday</b></td>
+			<td align="center" height="50">DW</td>
+			<td align="center" height="50">Python</td>
+			<td align="center" height="50">Java</td>
+			<td rowspan="6" align="center" height="50">
+				<h2>L<br>U<br>N<br>C<br>H</h2>
+			</td>
+			<td colspan="3" align="center"
+				height="50">LAB</td>
+			<td align="center" height="50">Android</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Tuesday</b>
+			</td>
+			<td colspan="3" align="center"
+				height="50">LAB
+			</td>
+			<td align="center" height="50">DW</td>
+			<td align="center" height="50">Java</td>
+			<td align="center" height="50">Python</td>
+			<td align="center" height="50">Free</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Wednesday</b>
+			</td>
+			<td align="center" height="50">Python</td>
+			<td align="center" height="50">Android</td>
+			<td align="center" height="50">DW</td>
+			<td align="center" height="50">Java</td>
+			<td colspan="3" align="center"
+				height="50">LIBRARY
+			</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Thursday</b>
+			</td>
+			<td align="center" height="50">Android</td>
+			<td align="center" height="50">DW</td>
+			<td align="center" height="50">Java</td>
+			<td colspan="3" align="center"
+				height="50">LAB
+			</td>
+			<td align="center" height="50">Python</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Friday</b>
+			</td>
+			<td colspan="3" align="center"
+				height="50">LAB
+			</td>
+			<td align="center" height="50">Python</td>
+			<td align="center" height="50">Java</td>
+			<td align="center" height="50">DW</td>
+			<td align="center" height="50">Android</td>
+		</tr>
+		<tr>
+			<td align="center" height="50">
+				<b>Saturday</b>
+			</td>
+			<td align="center" height="50">DW</td>
+			<td align="center" height="50">Java</td>
+			<td align="center" height="50">Python</td>
+			<td colspan="3" align="center"
+				height="50">SEMINAR
+			</td>
+			<td align="center" height="50">Free</td>
+		</tr>
+	</table>
+</center>
+</body>
+
+</html>
+
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION-6 :-Create below table using HTML table tags
+
+ANS:-
+To create the table shown below using HTML table tags, follow these steps:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Table Example</title>
+  </head>
+  <body>
+    <h1>HTML Table Example</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="3">Employee Information</th>
+        </tr>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>35</td>
+        </tr>
+        <tr>
+          <td>Jane</td>
+          <td>Smith</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>Mark</td>
+          <td>Johnson</td>
+          <td>42</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+This will create a table with a header row and a body containing three rows of data. The header row contains the column titles, "First Name," "Last Name," 
+and "Age." The body contains three rows of data, each with the first name, last name, and age of an employee. The table has a border of 1 pixel to make it 
+easier to see, but this can be removed by deleting the "border" attribute from the "table" tag.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+QUESTION-8 :-In how many ways can a CSS be integrated as a web page?
+
+ANS:-
+There are three ways to integrate CSS into a Web page. 
+   a.) Inline: HTML elements may have CSS applied to them via the STYLE attribute. 
+   b.) Internal: By placing the code in a STYLE element within the HEAD element. 
+   c.) External: Place the CSS in an external file and link it via a link element.
+
+
+
+
+
